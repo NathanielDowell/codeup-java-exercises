@@ -71,40 +71,39 @@ public class ControlFlowExercises {
         System.out.println("Please enter an integer");
         Scanner sc = new Scanner(System.in).useDelimiter("\n");
         int userInput = sc.nextInt();
-        System.out.println("Do you want to continue?");
-        String answer = sc.next();
+//        System.out.println("Do you want to continue?");
+//        String answer = sc.next();
         System.out.println("Here is your table!");
         System.out.println("number | squared | cubed");
         System.out.println("------ | ------- | -----");
-        if (answer.equalsIgnoreCase("yes")){
+//        if (answer.equalsIgnoreCase("yes")){
             for(int b = 1; b <= userInput; b++) {
                 int squared = b*b;
                 int cubed = b*b*b;
                 System.out.printf("%-7d|%-9d|%-6d%n",b, squared, cubed);
             }
-        }
+//        }4
 
         //Convert number grades into letter grades//
 
         System.out.println("Please enter the student's grade:");
         int grade = sc.nextInt();
-        System.out.println("Do you want to continue?");
-        String userAnswer = sc.next();
-        if(userAnswer.equalsIgnoreCase("yes")) {
+//        System.out.println("Do you want to continue?");
+//        String userAnswer = sc.next();
+//        if(userAnswer.equalsIgnoreCase("yes")) {
             if(grade >= 90) {
                 System.out.println("You got an A! Excellent job.");
             } else if (grade >= 80 && grade <= 89) {
-                System.out.println("You get a B. You aren't as good as the A students.");
+                System.out.println("You got a B. You are inferior to the A students.");
             } else if (grade >= 70 && grade <= 79) {
                 System.out.println("A C is average, but not really.  Work harder.");
             } else if (grade >= 60 && grade <= 69) {
-                System.out.println("D. You you sort of passed. D is for Dumb.");
+                System.out.println("D. You you sort of passed, but D is for Dumb.");
             } else {
-                System.out.println("F for failure.  Sad.");
+                System.out.println("F for failure. Sad.");
             }
-        }
+//        } //removed continuation question
 
 
         }
-
     }
