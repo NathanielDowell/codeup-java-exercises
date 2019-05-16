@@ -10,11 +10,12 @@ public class AdventureGame {
     //======= Delay ============//
     public static void gameDelay() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch(InterruptedException e) {
             System.out.println(".....");
         }
     } //========End Pause==========//
+
     public static void main(String[] args) {
 
         //=======Call the scanner once.=============//
@@ -39,19 +40,61 @@ public class AdventureGame {
 
 
         //======Story Starts======================//
+        System.out.print(" \n");
+
+        gameDelay();
+        gameDelay();
 
         System.out.print("You leave behind your Comfy Couch and sally forth into a world of adventure.\n");
+        System.out.print(" \n");
 
+        gameDelay();
+        gameDelay();
         gameDelay();
 
         System.out.print("However, you will always keep Comfy Couch with you in your heart.\n");
+        System.out.print(" \n");
 
+        gameDelay();
+        gameDelay();
+        gameDelay();
+
+        System.out.print("*** Walking outside... ***\n");
+        System.out.print(" \n");
+
+        gameDelay();
+        gameDelay();
+        gameDelay();
+
+        System.out.print("You get a strange feeling...\n");
+        System.out.print(" \n");
+
+        gameDelay();
         gameDelay();
 
         System.out.print("Fresh Air attacks!!\n");
+        System.out.print(" \n");
 
+        gameDelay();
         gameDelay();
 
         System.out.print("You have an allergic reaction to Fresh Air and die.\n");
+        System.out.print(" \n");
+
+
+        gameDelay();
+        gameDelay();
+        gameDelay();
+
+        System.out.print("Rest in peace, brave " + heroName + ".\n");
+        System.out.print(" \n");
+
+        gameDelay();
+        gameDelay();
+
+
+        System.out.print("The End.\n");
+        System.out.print(" \n");
+        System.out.print(" \n");
     }
 }
