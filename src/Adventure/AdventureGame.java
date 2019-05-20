@@ -1,4 +1,4 @@
-
+package Adventure;
 //==== Import the scanner, then call it in the class, below. =======//
 
 import java.util.Scanner;
@@ -15,6 +15,8 @@ public class AdventureGame {
             System.out.println(".....");
         }
     } //========End Pause==========//
+
+
 
     public static void main(String[] args) {
 
