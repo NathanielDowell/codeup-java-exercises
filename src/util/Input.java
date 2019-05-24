@@ -29,8 +29,16 @@ public class Input {
         return num;
     }
 //
+    // getInt and getDouble methods make sure that the value returned from method
+        //is actually an int or a double
     public int getInt(){
         return Integer.parseInt(getString("Give me a number: "));
+//        String s = (); <---Trying to define "s" so that it won't cause issue below
+//        try {
+//            return Integer.valueOf(String s); <--- This is fussing.
+//        } catch (Exception e) {
+//            System.out.println("This needs to be a number!");
+//        }
     }
 
     public double getDouble(){

@@ -2,15 +2,15 @@
 //
 //public class ArrayExercises {
 //
-//        class Person {
-//            private String firstName;
-//            private String lastName;
+//    class Person {
+//        private String firstName;
+//        private String lastName;
 //
 //    }
 //
 //    public static Person[] add Person(Person[] people, Person person) {
-//            Person[] morePeople = Arrays.copyOf(people, people.length + 1);
-//            return morePeople;
+//        Person[] morePeople = Arrays.copyOf(people, people.length + 1);
+//        return morePeople;
 //    }
 //
 //
@@ -20,9 +20,9 @@
 //        System.out.println(Arrays.toString(numbers));
 ////        System.out.println("Boo-ha-ha.");
 //
-//       Person[] people = {
-//               new Person("Bill", "Jenkins"), new Person("John", "Hammerstein"), new Person("John Stamos")
-//       };
+//        Person[] people = {
+//                new Person("Bill", "Jenkins"), new Person("John", "Hammerstein"), new Person("John Stamos")
+//        };
 //
 //        for (Person person : people) {
 //            System.out.println(person.getFullName());
