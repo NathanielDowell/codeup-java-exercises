@@ -30,12 +30,13 @@ public class AdventureGame {
         String heroName = scanner.nextLine();
 
         System.out.println("Welcome, " + heroName + "!  Are you ready to start?");
-        String start = scanner.nextLine();
+        String start = scanner.nextLine().toLowerCase().trim();
 
         if (start.equals("yes")) {
             System.out.print("Then prepare, brave " + heroName + ", to meet your destiny!\n");
         } else if (start.equals("no")) {
             System.out.print("I'm sorry to hear that.  Maybe you should take a nap.\n");
+            return;
         }
 
         //==== Allows me to slow the progress of the text display. ===//
@@ -53,6 +54,7 @@ public class AdventureGame {
         gameDelay();
         gameDelay();
         gameDelay();
+        gameDelay();
 
         System.out.print("However, you will always keep Comfy Couch with you in your heart.\n");
         System.out.print(" \n");
@@ -61,7 +63,7 @@ public class AdventureGame {
         gameDelay();
         gameDelay();
 
-        System.out.print("*** Walking outside... ***\n");
+        System.out.print("*** Walking Outside***\n");
         System.out.print(" \n");
 
         gameDelay();
